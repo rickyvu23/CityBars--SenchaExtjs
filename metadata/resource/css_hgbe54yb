@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css_hgbe54yb",
+        "url": "citybars.css"
+    },
+    "name": "css",
+    "designerId": "cf7dbd65-43ed-49bb-a523-f8086c8c1dfa"
+}

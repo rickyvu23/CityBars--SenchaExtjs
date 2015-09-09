@@ -1,0 +1,49 @@
+{
+    "name": "Mobile",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone 5",
+                "builtIn": true,
+                "height": 568,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost:1111/Mobile/",
+        "exportPath": ""
+    },
+    "xdsVersion": "3.2.0",
+    "xdsBuild": 279,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "touch24",
+    "viewOrderMap": {
+        "view": [
+            "b9d90f23-87eb-4cfb-957b-7b50e7e3fd5d",
+            "cf874e50-b771-4e27-94c0-293ed306b6e0",
+            "9e2f86f3-3b41-49ec-98a1-23f8cf3b31c8"
+        ],
+        "store": [
+            "854df681-7a7b-433f-a393-12b1b9f061be"
+        ],
+        "controller": [
+            "d08aba1a-e8e3-4461-8e9b-8726fadbb256"
+        ],
+        "model": [
+            "ae4a076e-9af2-45f2-b56b-bb0ed7d4f874"
+        ],
+        "resource": [
+            "9092be2d-42f6-4673-b514-cb8c612ff7a0",
+            "e40c63dd-6a08-40e3-a131-a7db9f498222",
+            "ec81c6e2-82a9-4ed3-863b-07ad1935043a",
+            "cf7dbd65-43ed-49bb-a523-f8086c8c1dfa"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

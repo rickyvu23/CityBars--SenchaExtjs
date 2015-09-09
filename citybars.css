@@ -1,0 +1,759 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class=" is-copy-enabled">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>CityBars/citybars.css at master · SenchaArchitect/CityBars</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="SenchaArchitect/CityBars" name="twitter:title" /><meta content="CityBars - Sencha Touch Application built with Sencha Architect" name="twitter:description" /><meta content="https://avatars3.githubusercontent.com/u/1869170?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars3.githubusercontent.com/u/1869170?v=3&amp;s=400" property="og:image" /><meta content="SenchaArchitect/CityBars" property="og:title" /><meta content="https://github.com/SenchaArchitect/CityBars" property="og:url" /><meta content="CityBars - Sencha Touch Application built with Sencha Architect" property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTExNTI1ODU6ODI2MDM4NzU4Mzk3ZWVhNGZmMmQ2MmEwN2I5MjBlYzM6MDRiNGYxZmNkODkyYmMzNGUwY2YzYjI3ZTZlYmY4YmQ3YjcwODE4Y2VmYjJiMjQ1ODNiNDVlNjg1ZWUyZWE4NA==--89d60141f789b98c279a65d63f70fdb098047458">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="86E4A4DB:3C3F:A1FF4E2:55EFDE71" name="octolytics-dimension-request_id" /><meta content="11152585" name="octolytics-actor-id" /><meta content="rickyvu23" name="octolytics-actor-login" /><meta content="fe0d3c815f241d669a522a137901eadac9d5cf7f3edc5f506d97b3c9813d6b05" name="octolytics-actor-hash" />
+    
+    <meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged In">
+      <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="rickyvu23">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
+<meta content="otiin9F0WqKWGrb4cST+OmEA4c682ZKwBBlEDU/w8sJhWntGGM9W5q0bgRiBBkM3l0DbuTaMWKWmwfYOUjirXg==" name="csrf-token" />
+    <meta content="89c46aecd950bcdcf1385d46564603fceb31a662" name="form-nonce" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-297f62b515917a9f8880b23160a0cb5073573d140c9fa1b8c36c54eef056537d.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-ada15c437f3f84dd62f6fa41cd5edd0a378938da05e9ea81b1150c4cd740ebaf.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="84ca538bfa5cf2c854717ee8112ab1d2">
+
+      
+  <meta name="description" content="CityBars - Sencha Touch Application built with Sencha Architect">
+  <meta name="go-import" content="github.com/SenchaArchitect/CityBars git https://github.com/SenchaArchitect/CityBars.git">
+
+  <meta content="1869170" name="octolytics-dimension-user_id" /><meta content="SenchaArchitect" name="octolytics-dimension-user_login" /><meta content="4718188" name="octolytics-dimension-repository_id" /><meta content="SenchaArchitect/CityBars" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="4718188" name="octolytics-dimension-repository_network_root_id" /><meta content="SenchaArchitect/CityBars" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/SenchaArchitect/CityBars/commits/master.atom" rel="alternate" title="Recent Commits to CityBars:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_in  env-production windows vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/SenchaArchitect/CityBars/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/SenchaArchitect/CityBars/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+      </div>
+
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item">
+          <a href="/pulls" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="/issues" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item">
+      <span class="js-socket-channel js-updatable-content"
+        data-channel="notification-changed:rickyvu23"
+        data-url="/notifications/header">
+  </span>
+
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/new"
+       aria-label="Create new…"
+       data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus left"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="SenchaArchitect/CityBars">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/SenchaArchitect/CityBars/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-s js-menu-target" href="/rickyvu23"
+       aria-label="View profile and more"
+       data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@rickyvu23" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/11152585?v=3&amp;s=40" width="20" />
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu dropdown-menu-sw">
+        <div class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">rickyvu23</strong>
+        </div>
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/rickyvu23" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a>
+        <a class="dropdown-item" href="/stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+        <a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a>
+
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lU/FitWYO9sOpYLVBk+djYjSKK0haCmp6EmH/sMsjlSkgo+Q4erlKSwbon5XUzX7XM/vBxB8O53bukv1TlcccQ==" /></div>
+          <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </li>
+</ul>
+
+
+    
+  </div>
+</div>
+
+      
+
+      
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        <div class="clearfix">
+          
+<ul class="pagehead-actions">
+
+  <li>
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AOyc5LJLm2KaZk0nQWi7KfMeEm2IxOM4xFXVx3n1cK6wQ1K43OT6av8zNx18qRueuKeomHGD20Fus3VYdWUM4A==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="4718188" />
+
+      <div class="select-menu js-menu-container js-select-menu">
+        <a href="/SenchaArchitect/CityBars/subscription"
+          class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true"
+          data-ga-click="Repository, click Watch settings, action:blob#show">
+          <span class="js-select-button">
+            <span class="octicon octicon-eye"></span>
+            Watch
+          </span>
+        </a>
+        <a class="social-count js-social-count" href="/SenchaArchitect/CityBars/watchers">
+          16
+        </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+            <div class="select-menu-header">
+              <span class="select-menu-title">Notifications</span>
+              <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+            </div>
+
+            <div class="select-menu-list js-navigation-container" role="menu">
+
+              <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                  <span class="select-menu-item-heading">Not watching</span>
+                  <span class="description">Be notified when participating or @mentioned.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                  <span class="select-menu-item-heading">Watching</span>
+                  <span class="description">Be notified of all conversations.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Unwatch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_ignore" name="do" type="radio" value="ignore" />
+                  <span class="select-menu-item-heading">Ignoring</span>
+                  <span class="description">Never be notified.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-mute"></span>
+                    Stop ignoring
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/SenchaArchitect/CityBars/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/uXmm8eDF/rE1ZV3nRSmoRvtbOt04a7MHyMD7idf+Yudg6I1ypI+E4PTtmMBZ8ATnX/v27X3oR7TtAKZo/o4Kg==" /></div>
+      <button
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar SenchaArchitect/CityBars"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/SenchaArchitect/CityBars/stargazers">
+          21
+        </a>
+</form>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/SenchaArchitect/CityBars/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SGQ6xtdsI52+ZG7ZNhOfmOnr9hfxauP17zAa8xxVqyi4ZrdGQRvgkEn7o5TRQCgRtfoTT5BsOrFh+yU3Q5W1kQ==" /></div>
+      <button
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star SenchaArchitect/CityBars"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/SenchaArchitect/CityBars/stargazers">
+          21
+        </a>
+</form>  </div>
+
+  </li>
+
+        <li>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/SenchaArchitect/CityBars/fork" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="DDTz0aUMSB6nasMOcdUNQwCZDHDBMrsbQ8qXbwFhG2Qkso8nMZARSNDbDYWTaTz2e6nYdpzacAW+DrFJvDp+Gg==" /></div>
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
+                title="Fork your own copy of SenchaArchitect/CityBars to your account"
+                aria-label="Fork your own copy of SenchaArchitect/CityBars to your account">
+              <span class="octicon octicon-repo-forked"></span>
+              Fork
+            </button>
+            <a href="/SenchaArchitect/CityBars/network" class="social-count">102</a>
+</form>        </li>
+
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="/SenchaArchitect" class="url fn" itemprop="url" rel="author"><span itemprop="title">SenchaArchitect</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/SenchaArchitect/CityBars" data-pjax="#js-repo-pjax-container">CityBars</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline ">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/SenchaArchitect/CityBars/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/SenchaArchitect/CityBars" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /SenchaArchitect/CityBars">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/SenchaArchitect/CityBars/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /SenchaArchitect/CityBars/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/SenchaArchitect/CityBars/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /SenchaArchitect/CityBars/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="/SenchaArchitect/CityBars/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /SenchaArchitect/CityBars/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/SenchaArchitect/CityBars/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /SenchaArchitect/CityBars/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/SenchaArchitect/CityBars/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /SenchaArchitect/CityBars/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url "
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/SenchaArchitect/CityBars.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url open"
+  data-protocol-type="ssh">
+  <h3><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="git@github.com:SenchaArchitect/CityBars.git" readonly="readonly" aria-label="SSH clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/SenchaArchitect/CityBars" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+  <div class="clone-options">You can clone with
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="iNhvzhNLailaFgsgE2B4cZwQB/nq6HCNMFn8WO0GJDkR+okvz7+2cl9xgdsYcnBzJ2sOD3rfLMhF1xYmpGl/QA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Ejrj7GTnU7H1OEREUWHG0QcG3i2caxzLIzAtLIMgZQzzzunkFCYoMUUxHRRt5z9WxhBfpDh2G8eDZ+pJq2xakw==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qALNkhC06Qfx1pfDioWTt+p1bjOra+YdJXMqSh3T1/Mic2EfrE+3j5OXYrnsK1w4CluCeVMi5X1ZVz21cio6HQ==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+      <span class="octicon octicon-question"></span>
+    </a>
+  </div>
+    <a href="github-windows://openRepo/https://github.com/SenchaArchitect/CityBars" class="btn btn-sm sidebar-button" title="Save SenchaArchitect/CityBars to your computer and use it in GitHub Desktop." aria-label="Save SenchaArchitect/CityBars to your computer and use it in GitHub Desktop.">
+      <span class="octicon octicon-desktop-download"></span>
+      Clone in Desktop
+    </a>
+
+              <a href="/SenchaArchitect/CityBars/archive/master.zip"
+                 class="btn btn-sm sidebar-button"
+                 aria-label="Download the contents of SenchaArchitect/CityBars as a zip file"
+                 title="Download the contents of SenchaArchitect/CityBars as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+
+<a href="/SenchaArchitect/CityBars/blob/d098c49f64b67c00f896492b621b14f045348986/CityBars/citybars.css" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:e9fec96914e8b6547053f760760e3f78 -->
+
+  <div class="file-navigation js-zeroclipboard-container">
+    
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/SenchaArchitect/CityBars/blob/2.1/CityBars/citybars.css"
+               data-name="2.1"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="2.1">
+                2.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/SenchaArchitect/CityBars/blob/3.0/CityBars/citybars.css"
+               data-name="3.0"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="3.0">
+                3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/SenchaArchitect/CityBars/blob/master/CityBars/citybars.css"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/SenchaArchitect/CityBars/tree/2.1b550/CityBars/citybars.css"
+                 data-name="2.1b550"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="2.1b550">2.1b550</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/SenchaArchitect/CityBars/tree/2.0/CityBars/citybars.css"
+                 data-name="2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="2.0">2.0</a>
+            </div>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="btn-group right">
+      <a href="/SenchaArchitect/CityBars/find/master"
+            class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-nw"
+            data-pjax
+            data-hotkey="t"
+            aria-label="Quickly jump between files">
+        <span class="octicon octicon-list-unordered"></span>
+      </a>
+      <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </div>
+
+    <div class="breadcrumb js-zeroclipboard-target">
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/SenchaArchitect/CityBars" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">CityBars</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/SenchaArchitect/CityBars/tree/master/CityBars" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">CityBars</span></a></span><span class="separator">/</span><strong class="final-path">citybars.css</strong>
+    </div>
+  </div>
+
+
+  <div class="commit file-history-tease">
+    <div class="file-history-tease-header">
+        <img alt="@lojjic" class="avatar" height="24" src="https://avatars0.githubusercontent.com/u/138124?v=3&amp;s=48" width="24" />
+        <span class="author"><a href="/lojjic" rel="contributor">lojjic</a></span>
+        <time datetime="2013-03-14T15:23:58Z" is="relative-time">Mar 14, 2013</time>
+        <div class="commit-title">
+            <a href="/SenchaArchitect/CityBars/commit/2b1d9ee727aa1a8e500f026d20ab4500ba20d6b3" class="message" data-pjax="true" title="Move project files into subdirectory">Move project files into subdirectory</a>
+        </div>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat">
+        <a href="#blob_contributors_box" rel="facebox">
+          <strong>1</strong>
+           contributor
+        </a>
+      </p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@lojjic" height="24" src="https://avatars0.githubusercontent.com/u/138124?v=3&amp;s=48" width="24" />
+            <a href="/lojjic">lojjic</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file">
+  <div class="file-header">
+    <div class="file-actions">
+
+      <div class="btn-group">
+        <a href="/SenchaArchitect/CityBars/raw/master/CityBars/citybars.css" class="btn btn-sm " id="raw-url">Raw</a>
+          <a href="/SenchaArchitect/CityBars/blame/master/CityBars/citybars.css" class="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a href="/SenchaArchitect/CityBars/commits/master/CityBars/citybars.css" class="btn btn-sm " rel="nofollow">History</a>
+      </div>
+
+        <a class="octicon-btn tooltipped tooltipped-nw"
+           href="github-windows://openRepo/https://github.com/SenchaArchitect/CityBars?branch=master&amp;filepath=CityBars%2Fcitybars.css"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <span class="octicon octicon-device-desktop"></span>
+        </a>
+
+            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/SenchaArchitect/CityBars/edit/master/CityBars/citybars.css" class="inline-form" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="dVAZDlW8Q6QKQoIYqPbghMRmWZU8sxlqTuf6z7aKl4h+lhzlKsEifZqxPXxQdhxqkX40T1atzBIB44CQEaJJUw==" /></div>
+              <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+                <span class="octicon octicon-pencil"></span>
+              </button>
+</form>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/SenchaArchitect/CityBars/delete/master/CityBars/citybars.css" class="inline-form" data-form-nonce="89c46aecd950bcdcf1385d46564603fceb31a662" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2PgmYgbiun+cqcjDoJEDtYkKYVpauce4HVFhlcMR0uPMLezL/fc5Mebi7+bZxBmGYTfMcuGUaEIB1DT8rBOu0w==" /></div>
+            <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Fork this project and delete this file" data-disable-with>
+              <span class="octicon octicon-trashcan"></span>
+            </button>
+</form>    </div>
+
+    <div class="file-info">
+        2 lines (1 sloc)
+        <span class="file-info-divider"></span>
+      65.476 kB
+    </div>
+  </div>
+  
+
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">@import url(http://fonts.googleapis.com/css?family=Voltaire);body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:&quot;&quot;}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}*:focus{outline:none}html,body{font-family:&quot;Helvetica Neue&quot;, HelveticaNeue, &quot;Helvetica-Neue&quot;, Helvetica, &quot;BBAlpha Sans&quot;, sans-serif;font-weight:normal;position:relative;-webkit-text-size-adjust:none}.x-desktop html,.x-desktop body{overflow:hidden}*,*:after,*:before{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-user-select:none;-webkit-touch-callout:none}.x-ios.x-tablet .x-landscape *{-webkit-text-stroke:1px transparent}body{font-size:104%}body.x-ios{-webkit-backface-visibility:hidden}body.x-android.x-phone{font-size:116%}body.x-ios.x-phone{font-size:114%}body.x-desktop{font-size:114%}input,textarea{-webkit-user-select:text}.x-hidden-visibility{visibility:hidden !important}.x-hidden-display{display:none !important}.x-hidden-offsets{position:absolute !important;left:-10000em;top:-10000em;visibility:hidden}.x-fullscreen{position:absolute !important}.x-desktop .x-body-stretcher{margin-bottom:0px}.x-draggable{z-index:1}.x-mask{position:absolute;top:0;left:0;bottom:0;right:0;height:100%;z-index:10;display:-webkit-box;display:box;-webkit-box-align:center;box-align:center;-webkit-box-pack:center;box-pack:center;background:rgba(0,0,0,0.3) center center no-repeat}.x-mask.x-mask-gray{background-color:rgba(0,0,0,0.5)}.x-mask .x-mask-inner{display:none;background:rgba(0,0,0,0.25);color:#fff;text-align:center;padding:.4em;font-size:.95em;font-weight:bold;-webkit-border-radius:0.5em;border-radius:0.5em}.x-mask .x-loading-spinner-outer{display:-webkit-box;display:box;-webkit-box-orient:vertical;box-orient:vertical;-webkit-box-align:center;box-align:center;-webkit-box-pack:center;box-pack:center;width:8.5em;height:8.5em}.x-mask .x-mask-msg{text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0;-webkit-box-flex:0 !important}.x-mask.x-mask-loading .x-mask-inner,.x-mask.x-mask-text .x-mask-inner{display:block}.x-mask:not(.x-mask-loading) .x-loading-spinner-outer{display:none}.x-mask:not(.x-mask-text) .x-mask-msg{display:none}.x-dragging{opacity:0.7}.x-panel-list{background-color:#e9e2e2}.x-html{-webkit-user-select:auto;-webkit-touch-callout:inherit;line-height:1.5;color:#333;font-size:.8em;margin:1.2em}.x-html body{line-height:1.5;font-family:&quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif;color:#333;font-size:75%}.x-html h1,.x-html h2,.x-html h3,.x-html h4,.x-html h5,.x-html h6{font-weight:normal;color:#222}.x-html h1 img,.x-html h2 img,.x-html h3 img,.x-html h4 img,.x-html h5 img,.x-html h6 img{margin:0}.x-html h1{font-size:3em;line-height:1;margin-bottom:0.50em}.x-html h2{font-size:2em;margin-bottom:0.75em}.x-html h3{font-size:1.5em;line-height:1;margin-bottom:1.00em}.x-html h4{font-size:1.2em;line-height:1.25;margin-bottom:1.25em}.x-html h5{font-size:1em;font-weight:bold;margin-bottom:1.50em}.x-html h6{font-size:1em;font-weight:bold}.x-html p{margin:0 0 1.5em}.x-html p .left{display:inline;float:left;margin:1.5em 1.5em 1.5em 0;padding:0}.x-html p .right{display:inline;float:right;margin:1.5em 0 1.5em 1.5em;padding:0}.x-html a{text-decoration:underline;color:#06c}.x-html a:visited{color:#004c99}.x-html a:focus{color:#09f}.x-html a:hover{color:#09f}.x-html a:active{color:#bf00ff}.x-html blockquote{margin:1.5em;color:#666;font-style:italic}.x-html strong,.x-html dfn{font-weight:bold}.x-html em,.x-html dfn{font-style:italic}.x-html sup,.x-html sub{line-height:0}.x-html abbr,.x-html acronym{border-bottom:1px dotted #666666}.x-html address{margin:0 0 1.5em;font-style:italic}.x-html del{color:#666}.x-html pre{margin:1.5em 0;white-space:pre}.x-html pre,.x-html code,.x-html tt{font:1em &quot;andale mono&quot;,&quot;lucida console&quot;,monospace;line-height:1.5}.x-html li ul,.x-html li ol{margin:0}.x-html ul,.x-html ol{margin:0 1.5em 1.5em 0;padding-left:1.5em}.x-html ul{list-style-type:disc}.x-html ol{list-style-type:decimal}.x-html dl{margin:0 0 1.5em 0}.x-html dl dt{font-weight:bold}.x-html dd{margin-left:1.5em}.x-html table{margin-bottom:1.4em;width:100%}.x-html th{font-weight:bold}.x-html thead th{background:#c3d9ff}.x-html th,.x-html td,.x-html caption{padding:4px 10px 4px 5px}.x-html table.striped tr:nth-child(even) td,.x-html table tr.even td{background:#e5ecf9}.x-html tfoot{font-style:italic}.x-html caption{background:#eee}.x-html .quiet{color:#666}.x-html .loud{color:#111}.x-html ul li{list-style-type:circle}.x-html ol li{list-style-type:decimal}.x-video{background-color:#000}.x-sortable .x-dragging{opacity:1;z-index:5}.x-fullscreen{background:#eee}.x-map{background-color:#edeae2}.x-mask-map{background:transparent !important}.x-img{background-repeat:no-repeat}.x-video{height:100%;width:100%}.x-video &gt; *{height:100%;width:100%;position:absolute}.x-video-ghost{-webkit-background-size:100% auto;background:#000 url() center center no-repeat}audio{width:100%}.x-panel,.x-panel-body{position:relative}.x-panel.x-floating{padding:6px;-webkit-border-radius:0.3em;border-radius:0.3em;-webkit-box-shadow:rgba(0,0,0,0.8) 0 0.2em 0.6em;background-color:#000;background-image:none}.x-panel.x-floating.x-floating-light{background-color:#666;background-image:none}.x-panel.x-floating .x-panel,.x-panel.x-floating .x-scroll-view{background-color:#fff;-webkit-border-radius:0.3em;border-radius:0.3em}.x-anchor{width:1.631em;height:0.7em;position:absolute;z-index:1;-webkit-mask:0 0 url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPZJREFUeNpi/PX7LwOFwAyIG6HseiA+Ra5BjBQ6xg+IVwAxJ5T/HYgjgHgTOYYxUeCQUiBeh+QQBih7HVSOLiHDDMSTgTiTgLrpQJwLxH9p5RhOaLT4EakeFF3RQPyF2o6RhkaBGYkheRmIPYH4KbXSjC4QnyTDIch6danhGCcgPgwNGXKBNNQMb0ocEwXE24GYn4FyADJjI76Ej88x7UC8FIjZGKgHQDlxGtRsZmISMMjy+dBQoSXYBC0gv+NyDD80xzgx0AeAqg4fIH6NHk0qQHyMjg6B1WvHYDkNFjIgwS1ALMowMOAjEAeBHINe2Q0U+AUQYACQ10C2QNhRogAAAABJRU5ErkJggg==&#39;) no-repeat;-webkit-mask-size:1.631em 0.7em;overflow:hidden;background-color:#000}.x-anchor.x-anchor-bottom{-webkit-transform:rotate(180deg);background-color:#000}.x-anchor.x-anchor-left{-webkit-transform:rotate(270deg)}.x-anchor.x-anchor-right{-webkit-transform:rotate(90deg)}.x-floating.x-panel-light:after{background-color:#666}.x-button{-webkit-background-clip:padding;background-clip:padding-box;-webkit-border-radius:0.4em;border-radius:0.4em;display:-webkit-box;display:box;-webkit-box-align:center;box-align:center;min-height:1.8em !important;padding:.3em .6em;position:relative;overflow:hidden}.x-button,.x-toolbar .x-button{border:0.1em solid #999;border-top-color:#a6a6a6;color:#000;text-shadow:rgba(255,255,255,0.25) 0 0.08em 0;-webkit-box-shadow:rgba(255,255,255,0.1) 0 0.1em 0}.x-button.x-button-back:before,.x-button.x-button-forward:before,.x-toolbar .x-button.x-button-back:before,.x-toolbar .x-button.x-button-forward:before{background:#999}.x-button,.x-button.x-button-back:after,.x-button.x-button-forward:after,.x-toolbar .x-button,.x-toolbar .x-button.x-button-back:after,.x-toolbar .x-button.x-button-forward:after{background-color:#ccc;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(50%, #d9d9d9), color-stop(51%, #cccccc), color-stop(100%, #bfbfbf));background-image:-webkit-linear-gradient(#f2f2f2,#d9d9d9 50%,#cccccc 51%,#bfbfbf);background-image:linear-gradient(#f2f2f2,#d9d9d9 50%,#cccccc 51%,#bfbfbf)}.x-button .x-button-icon.x-icon-mask,.x-toolbar .x-button .x-button-icon.x-icon-mask{background-color:#000;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #262626), color-stop(50%, #0d0d0d), color-stop(51%, #000000), color-stop(100%, #000000));background-image:-webkit-linear-gradient(#262626,#0d0d0d 50%,#000000 51%,#000000);background-image:linear-gradient(#262626,#0d0d0d 50%,#000000 51%,#000000)}.x-button.x-button-pressed,.x-button.x-button-active,.x-toolbar .x-button.x-button-pressed,.x-toolbar .x-button.x-button-active{-webkit-box-shadow:inset #aaa1a1 0 0 0.1em,rgba(255,255,255,0.1) 0 0.1em 0}.x-button.x-button-pressed,.x-button.x-button-pressed:after,.x-button.x-button-active,.x-button.x-button-active:after,.x-toolbar .x-button.x-button-pressed,.x-toolbar .x-button.x-button-pressed:after,.x-toolbar .x-button.x-button-active,.x-toolbar .x-button.x-button-active:after{background-color:#bababa;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a1a1a1), color-stop(10%, #adadad), color-stop(65%, #bababa), color-stop(100%, #bbbbbb));background-image:-webkit-linear-gradient(#a1a1a1,#adadad 10%,#bababa 65%,#bbbbbb);background-image:linear-gradient(#a1a1a1,#adadad 10%,#bababa 65%,#bbbbbb)}.x-button .x-button-icon{width:2.1em;height:2.1em;background-repeat:no-repeat;background-position:center;display:block}.x-button .x-button-icon.x-icon-mask{width:1.3em;height:1.3em;-webkit-mask-size:1.3em}.x-button.x-item-disabled .x-button-label,.x-button.x-item-disabled .x-hasbadge .x-badge,.x-hasbadge .x-button.x-item-disabled .x-badge,.x-button.x-item-disabled .x-button-icon{opacity:.5}.x-button-round,.x-button.x-button-action-round,.x-button.x-button-confirm-round,.x-button.x-button-decline-round{-webkit-border-radius:0.9em;border-radius:0.9em;padding:0.1em 0.9em}.x-button-small,.x-button.x-button-action-small,.x-button.x-button-confirm-small,.x-button.x-button-decline-small,.x-toolbar .x-button-small,.x-toolbar .x-button.x-button-action-small,.x-toolbar .x-button.x-button-confirm-small,.x-toolbar .x-button.x-button-decline-small{-webkit-border-radius:0.3em;border-radius:0.3em;padding:.2em .4em;min-height:0}.x-button-small .x-button-label,.x-button.x-button-action-small .x-button-label,.x-button.x-button-confirm-small .x-button-label,.x-button.x-button-decline-small .x-button-label,.x-button-small .x-hasbadge .x-badge,.x-hasbadge .x-button-small .x-badge,.x-button.x-button-action-small .x-hasbadge .x-badge,.x-hasbadge .x-button.x-button-action-small .x-badge,.x-button.x-button-confirm-small .x-hasbadge .x-badge,.x-hasbadge .x-button.x-button-confirm-small .x-badge,.x-button.x-button-decline-small .x-hasbadge .x-badge,.x-hasbadge .x-button.x-button-decline-small .x-badge,.x-toolbar .x-button-small .x-button-label,.x-toolbar .x-button.x-button-action-small .x-button-label,.x-toolbar .x-button.x-button-confirm-small .x-button-label,.x-toolbar .x-button.x-button-decline-small .x-button-label,.x-toolbar .x-button-small .x-hasbadge .x-badge,.x-hasbadge .x-toolbar .x-button-small .x-badge,.x-toolbar .x-button.x-button-action-small .x-hasbadge .x-badge,.x-hasbadge .x-toolbar .x-button.x-button-action-small .x-badge,.x-toolbar .x-button.x-button-confirm-small .x-hasbadge .x-badge,.x-hasbadge .x-toolbar .x-button.x-button-confirm-small .x-badge,.x-toolbar .x-button.x-button-decline-small .x-hasbadge .x-badge,.x-hasbadge .x-toolbar .x-button.x-button-decline-small .x-badge{font-size:.6em}.x-button-small .x-button-icon,.x-button.x-button-action-small .x-button-icon,.x-button.x-button-confirm-small .x-button-icon,.x-button.x-button-decline-small .x-button-icon,.x-toolbar .x-button-small .x-button-icon,.x-toolbar .x-button.x-button-action-small .x-button-icon,.x-toolbar .x-button.x-button-confirm-small .x-button-icon,.x-toolbar .x-button.x-button-decline-small .x-button-icon{width:.75em;height:.75em}.x-iconalign-left,.x-icon-align-right{-webkit-box-orient:horizontal;box-orient:horizontal;-webkit-box-direction:reverse;box-direction:reverse}.x-iconalign-top,.x-iconalign-bottom{-webkit-box-orient:vertical;box-orient:vertical}.x-iconalign-bottom,.x-iconalign-right{-webkit-box-direction:normal;box-direction:normal}.x-iconalign-bottom{-webkit-box-direction:reverse;box-direction:reverse}.x-iconalign-center{-webkit-box-pack:center;box-pack:center}.x-iconalign-left .x-button-label,.x-iconalign-left .x-hasbadge .x-badge,.x-hasbadge .x-iconalign-left .x-badge{margin-left:0.3em}.x-iconalign-right .x-button-label,.x-iconalign-right .x-hasbadge .x-badge,.x-hasbadge .x-iconalign-right .x-badge{margin-right:0.3em}.x-button-label,.x-hasbadge .x-badge{-webkit-box-flex:1;box-flex:1;-webkit-box-align:center;box-align:center;white-space:nowrap;text-overflow:ellipsis;text-align:center;font-weight:bold;line-height:1.2em;display:block;overflow:hidden}.x-toolbar .x-button{margin:0 .2em;padding:.3em .6em}.x-toolbar .x-button .x-button-label,.x-toolbar .x-button .x-hasbadge .x-badge,.x-hasbadge .x-toolbar .x-button .x-badge{font-size:.7em}.x-button-forward,.x-button-back{position:relative;overflow:visible;height:1.8em;z-index:1}.x-button-forward:before,.x-button-forward:after,.x-button-back:before,.x-button-back:after{content:&quot;&quot;;position:absolute;width:0.773em;height:1.8em;top:-0.1em;left:auto;z-index:2;-webkit-mask:0.145em 0 url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAABGCAYAAADb7SQ4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAiNJREFUeNrEWb9LQlEUvj5BcHoQvMnVKXD1D3CLwqBJbHJsazQaWoSCxgbHJiMIAiNok6AhCDdXVycnJ8EQOgeOYaG+d39998KH+HyP753zzjnfd325xfdSgVeV8B6BScuEV0IRSbxHeCMk/AVFXCA8ScQKSXxPqK0fQBBfE5r/D+Y8VzUT9jb94DPimqRYIYkrhGcpKhhxIqTxrpNcExdlQJTTTnRJnCc8ykhUSOIOoZ71ZFfEZ4S2zgUu+rguxZRHEnPbfKRVsOtUl0RtYpOLTYljIS2Z3nVk2DY9SbNCEt8RDm0rUpe4La1jvXSqmtum72raZI24KuNQIYl/nSGSOJb0Jq61M0pxhjwK9304hUjHGSKILzc5Q5drUzttdYY+I97pDH1FzG0zNFUb04gTG4kzJS5kdYauiZtZnaFr4ooKsCIVaDHxKAQxt1NBnGIVHfGCcEQYh3jGU8KBfMKLiyM+lgzAq/qT0ArVTg+Ei1B9fEPoovV4fcfQd2HedScX39GprwGTNjJn0maTELN6IuSzECLB6T5x2eM66jQgnIeSxa60GnS3uL56tr7b1Ai0JPVwYi6yho2U2lgfKym19VxjMRHzEGbvS9K+RBPzetGVUpf29lZHSl2/DMnLvwh1ZMQrKW3Ic4fvJOZS6ZMQW5hpmpT63DvtlFLfm7bBNruM2C2yXb7y3U6ZpRS5P/4jpUjihRTbCJ3q1eL3GMMfAQYAJmB6SBO619IAAAAASUVORK5CYII=&#39;) no-repeat;-webkit-mask-size:0.773em 1.8em;overflow:hidden}.x-button-back,.x-toolbar .x-button-back{margin-left:0.828em;padding-left:.4em}.x-button-back:before,.x-toolbar .x-button-back:before{left:-0.693em}.x-button-back:after,.x-toolbar .x-button-back:after{left:-0.628em}.x-button-forward,.x-toolbar .x-button-forward{margin-right:0.828em;padding-right:.4em}.x-button-forward:before,.x-button-forward:after,.x-toolbar .x-button-forward:before,.x-toolbar .x-button-forward:after{-webkit-mask:-0.145em 0 url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAABGCAYAAADb7SQ4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAXlJREFUaN7lmTFqAlEQhh8EhFSCYJXW1law9QAewMrWAwQWAmmtbPcGHiCQ1gPYCla2QsDKSsgmQecvFqImu2/fzry/2OLb9mt23vwz47Kvn5MwEFxM8DkLB6HHEIOd0GGIwUpoMcRgyRKDOUsMJizxpzBiiMFR6DPEeZl1GWKwFh4ZYvAmPDDEqmVWVQxmLPG3MGaIVcosVAz2whNDDDZCmyEG7yFlpiEGKUsMEpb4XKXMtMXeiVVb7J1YLcRgW1ZmVuLSxGopLkys1mLwwhL/mVhjie8Sayxx3kp7DPFVYo0tzhNriyEGU5Z40TjxtDE/F6WcDowHBE/msDFNImG0xZQRBAonDCvxhhH2vKZIZ9Ds+7EDfaWFnKZ4xhja5owxdcnYCAQv1p1Gi4sprn08cZbDt6ZYZasXIn5mLFHTjLCvVt1V+4rVt/M+4r3FPaJMbHaBKRKb3pyKxKZXtv/Er4yjZpRL6q042u34tzh4xV9H/FHnqBHKBQeEd6aqqwD6AAAAAElFTkSuQmCC&#39;) no-repeat}.x-button-forward:before,.x-toolbar .x-button-forward:before{right:-0.693em}.x-button-forward:after,.x-toolbar .x-button-forward:after{right:-0.628em}.x-button.x-button-plain,.x-toolbar .x-button.x-button-plain{background:none;border:0 none;-webkit-box-shadow:none;box-shadow:none;-webkit-border-radius:none;border-radius:none;min-height:0;text-shadow:none;line-height:auto;height:auto;padding:0.5em}.x-button.x-button-plain &gt; *,.x-toolbar .x-button.x-button-plain &gt; *{overflow:visible}.x-button.x-button-plain .x-button-icon,.x-toolbar .x-button.x-button-plain .x-button-icon{-webkit-mask-size:1.4em;width:1.4em;height:1.4em}.x-button.x-button-plain.x-button-pressed,.x-toolbar .x-button.x-button-plain.x-button-pressed{background:none;-webkit-box-shadow:none;background-image:-webkit-gradient(radial, 50% 50%, 0, 50% 50%, 24, color-stop(0%, rgba(232,176,176,0.7)), color-stop(100%, rgba(232,176,176,0)));background-image:-webkit-radial-gradient(rgba(232,176,176,0.7),rgba(232,176,176,0) 24px);background-image:radial-gradient(rgba(232,176,176,0.7),rgba(232,176,176,0) 24px)}.x-button.x-button-plain.x-button-pressed .x-button-icon,.x-toolbar .x-button.x-button-plain.x-button-pressed .x-button-icon{background-color:#fff;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e6e6e6), color-stop(10%, #f2f2f2), color-stop(65%, #ffffff), color-stop(100%, #ffffff));background-image:-webkit-linear-gradient(#e6e6e6,#f2f2f2 10%,#ffffff 65%,#ffffff);background-image:linear-gradient(#e6e6e6,#f2f2f2 10%,#ffffff 65%,#ffffff)}.x-segmentedbutton .x-button{margin:0;-webkit-border-radius:0;border-radius:0}.x-segmentedbutton .x-button.x-first{-webkit-border-top-left-radius:0.4em;border-top-left-radius:0.4em;-webkit-border-bottom-left-radius:0.4em;border-bottom-left-radius:0.4em}.x-segmentedbutton .x-button.x-last{-webkit-border-top-right-radius:0.4em;border-top-right-radius:0.4em;-webkit-border-bottom-right-radius:0.4em;border-bottom-right-radius:0.4em}.x-segmentedbutton .x-button:not(:first-child){border-left:0}.x-hasbadge{overflow:visible}.x-hasbadge .x-badge{-webkit-border-radius:1em;border-radius:1em;-webkit-background-clip:padding;background-clip:padding-box;padding:.15em .25em;z-index:30;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0;-webkit-box-shadow:#000 0 .1em .2em;overflow:hidden;color:#fff;border:2px solid #fff;position:absolute;width:auto;min-width:2em;height:2em;line-height:1.2em;font-size:.6em;top:-0.15em;right:0px;max-width:100%;background-color:#900;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e60000), color-stop(50%, #b30000), color-stop(51%, #990000), color-stop(100%, #800000));background-image:-webkit-linear-gradient(#e60000,#b30000 50%,#990000 51%,#800000);background-image:linear-gradient(#e60000,#b30000 50%,#990000 51%,#800000);display:inline-block}.x-button.x-button-action,.x-toolbar .x-button.x-button-action,.x-button.x-button-action-round,.x-toolbar .x-button.x-button-action-round,.x-button.x-button-action-small,.x-toolbar .x-button.x-button-action-small{border:0.1em solid #280b0b;border-top-color:#3b1111;color:#fff;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0;-webkit-box-shadow:rgba(255,255,255,0.1) 0 0.1em 0}.x-button.x-button-action.x-button-back:before,.x-button.x-button-action.x-button-forward:before,.x-toolbar .x-button.x-button-action.x-button-back:before,.x-toolbar .x-button.x-button-action.x-button-forward:before,.x-button.x-button-action-round.x-button-back:before,.x-button.x-button-action-round.x-button-forward:before,.x-toolbar .x-button.x-button-action-round.x-button-back:before,.x-toolbar .x-button.x-button-action-round.x-button-forward:before,.x-button.x-button-action-small.x-button-back:before,.x-button.x-button-action-small.x-button-forward:before,.x-toolbar .x-button.x-button-action-small.x-button-back:before,.x-toolbar .x-button.x-button-action-small.x-button-forward:before{background:#280b0b}.x-button.x-button-action,.x-button.x-button-action.x-button-back:after,.x-button.x-button-action.x-button-forward:after,.x-toolbar .x-button.x-button-action,.x-toolbar .x-button.x-button-action.x-button-back:after,.x-toolbar .x-button.x-button-action.x-button-forward:after,.x-button.x-button-action-round,.x-button.x-button-action-round.x-button-back:after,.x-button.x-button-action-round.x-button-forward:after,.x-toolbar .x-button.x-button-action-round,.x-toolbar .x-button.x-button-action-round.x-button-back:after,.x-toolbar .x-button.x-button-action-round.x-button-forward:after,.x-button.x-button-action-small,.x-button.x-button-action-small.x-button-back:after,.x-button.x-button-action-small.x-button-forward:after,.x-toolbar .x-button.x-button-action-small,.x-toolbar .x-button.x-button-action-small.x-button-back:after,.x-toolbar .x-button.x-button-action-small.x-button-forward:after{background-color:#772222;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b23434), color-stop(50%, #8a2828), color-stop(51%, #772222), color-stop(100%, #631d1d));background-image:-webkit-linear-gradient(#b23434,#8a2828 50%,#772222 51%,#631d1d);background-image:linear-gradient(#b23434,#8a2828 50%,#772222 51%,#631d1d)}.x-button.x-button-action .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-action .x-button-icon.x-icon-mask,.x-button.x-button-action-round .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-action-round .x-button-icon.x-icon-mask,.x-button.x-button-action-small .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-action-small .x-button-icon.x-icon-mask{background-color:#fff;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(51%, #ffffff), color-stop(100%, #f9ebeb));background-image:-webkit-linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#f9ebeb);background-image:linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#f9ebeb)}.x-button.x-button-action.x-button-pressed,.x-button.x-button-action.x-button-active,.x-toolbar .x-button.x-button-action.x-button-pressed,.x-toolbar .x-button.x-button-action.x-button-active,.x-button.x-button-action-round.x-button-pressed,.x-button.x-button-action-round.x-button-active,.x-toolbar .x-button.x-button-action-round.x-button-pressed,.x-toolbar .x-button.x-button-action-round.x-button-active,.x-button.x-button-action-small.x-button-pressed,.x-button.x-button-action-small.x-button-active,.x-toolbar .x-button.x-button-action-small.x-button-pressed,.x-toolbar .x-button.x-button-action-small.x-button-active{-webkit-box-shadow:inset #3d0f0f 0 0 0.1em,rgba(255,255,255,0.1) 0 0.1em 0}.x-button.x-button-action.x-button-pressed,.x-button.x-button-action.x-button-pressed:after,.x-button.x-button-action.x-button-active,.x-button.x-button-action.x-button-active:after,.x-toolbar .x-button.x-button-action.x-button-pressed,.x-toolbar .x-button.x-button-action.x-button-pressed:after,.x-toolbar .x-button.x-button-action.x-button-active,.x-toolbar .x-button.x-button-action.x-button-active:after,.x-button.x-button-action-round.x-button-pressed,.x-button.x-button-action-round.x-button-pressed:after,.x-button.x-button-action-round.x-button-active,.x-button.x-button-action-round.x-button-active:after,.x-toolbar .x-button.x-button-action-round.x-button-pressed,.x-toolbar .x-button.x-button-action-round.x-button-pressed:after,.x-toolbar .x-button.x-button-action-round.x-button-active,.x-toolbar .x-button.x-button-action-round.x-button-active:after,.x-button.x-button-action-small.x-button-pressed,.x-button.x-button-action-small.x-button-pressed:after,.x-button.x-button-action-small.x-button-active,.x-button.x-button-action-small.x-button-active:after,.x-toolbar .x-button.x-button-action-small.x-button-pressed,.x-toolbar .x-button.x-button-action-small.x-button-pressed:after,.x-toolbar .x-button.x-button-action-small.x-button-active,.x-toolbar .x-button.x-button-action-small.x-button-active:after{background-color:#5b1a1a;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #330f0f), color-stop(10%, #471515), color-stop(65%, #5b1a1a), color-stop(100%, #5d1b1b));background-image:-webkit-linear-gradient(#330f0f,#471515 10%,#5b1a1a 65%,#5d1b1b);background-image:linear-gradient(#330f0f,#471515 10%,#5b1a1a 65%,#5d1b1b)}.x-button.x-button-confirm,.x-toolbar .x-button.x-button-confirm,.x-button.x-button-confirm-round,.x-toolbar .x-button.x-button-confirm-round,.x-button.x-button-confirm-small,.x-toolbar .x-button.x-button-confirm-small{border:0.1em solid #263501;border-top-color:#374e02;color:#fff;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0;-webkit-box-shadow:rgba(255,255,255,0.1) 0 0.1em 0}.x-button.x-button-confirm.x-button-back:before,.x-button.x-button-confirm.x-button-forward:before,.x-toolbar .x-button.x-button-confirm.x-button-back:before,.x-toolbar .x-button.x-button-confirm.x-button-forward:before,.x-button.x-button-confirm-round.x-button-back:before,.x-button.x-button-confirm-round.x-button-forward:before,.x-toolbar .x-button.x-button-confirm-round.x-button-back:before,.x-toolbar .x-button.x-button-confirm-round.x-button-forward:before,.x-button.x-button-confirm-small.x-button-back:before,.x-button.x-button-confirm-small.x-button-forward:before,.x-toolbar .x-button.x-button-confirm-small.x-button-back:before,.x-toolbar .x-button.x-button-confirm-small.x-button-forward:before{background:#263501}.x-button.x-button-confirm,.x-button.x-button-confirm.x-button-back:after,.x-button.x-button-confirm.x-button-forward:after,.x-toolbar .x-button.x-button-confirm,.x-toolbar .x-button.x-button-confirm.x-button-back:after,.x-toolbar .x-button.x-button-confirm.x-button-forward:after,.x-button.x-button-confirm-round,.x-button.x-button-confirm-round.x-button-back:after,.x-button.x-button-confirm-round.x-button-forward:after,.x-toolbar .x-button.x-button-confirm-round,.x-toolbar .x-button.x-button-confirm-round.x-button-back:after,.x-toolbar .x-button.x-button-confirm-round.x-button-forward:after,.x-button.x-button-confirm-small,.x-button.x-button-confirm-small.x-button-back:after,.x-button.x-button-confirm-small.x-button-forward:after,.x-toolbar .x-button.x-button-confirm-small,.x-toolbar .x-button.x-button-confirm-small.x-button-back:after,.x-toolbar .x-button.x-button-confirm-small.x-button-forward:after{background-color:#6c9804;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a2e306), color-stop(50%, #7eb105), color-stop(51%, #6c9804), color-stop(100%, #5b7f03));background-image:-webkit-linear-gradient(#a2e306,#7eb105 50%,#6c9804 51%,#5b7f03);background-image:linear-gradient(#a2e306,#7eb105 50%,#6c9804 51%,#5b7f03)}.x-button.x-button-confirm .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-confirm .x-button-icon.x-icon-mask,.x-button.x-button-confirm-round .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-confirm-round .x-button-icon.x-icon-mask,.x-button.x-button-confirm-small .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-confirm-small .x-button-icon.x-icon-mask{background-color:#fff;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(51%, #ffffff), color-stop(100%, #f7fee6));background-image:-webkit-linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#f7fee6);background-image:linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#f7fee6)}.x-button.x-button-confirm.x-button-pressed,.x-button.x-button-confirm.x-button-active,.x-toolbar .x-button.x-button-confirm.x-button-pressed,.x-toolbar .x-button.x-button-confirm.x-button-active,.x-button.x-button-confirm-round.x-button-pressed,.x-button.x-button-confirm-round.x-button-active,.x-toolbar .x-button.x-button-confirm-round.x-button-pressed,.x-toolbar .x-button.x-button-confirm-round.x-button-active,.x-button.x-button-confirm-small.x-button-pressed,.x-button.x-button-confirm-small.x-button-active,.x-toolbar .x-button.x-button-confirm-small.x-button-pressed,.x-toolbar .x-button.x-button-confirm-small.x-button-active{-webkit-box-shadow:inset #384f00 0 0 0.1em,rgba(255,255,255,0.1) 0 0.1em 0}.x-button.x-button-confirm.x-button-pressed,.x-button.x-button-confirm.x-button-pressed:after,.x-button.x-button-confirm.x-button-active,.x-button.x-button-confirm.x-button-active:after,.x-toolbar .x-button.x-button-confirm.x-button-pressed,.x-toolbar .x-button.x-button-confirm.x-button-pressed:after,.x-toolbar .x-button.x-button-confirm.x-button-active,.x-toolbar .x-button.x-button-confirm.x-button-active:after,.x-button.x-button-confirm-round.x-button-pressed,.x-button.x-button-confirm-round.x-button-pressed:after,.x-button.x-button-confirm-round.x-button-active,.x-button.x-button-confirm-round.x-button-active:after,.x-toolbar .x-button.x-button-confirm-round.x-button-pressed,.x-toolbar .x-button.x-button-confirm-round.x-button-pressed:after,.x-toolbar .x-button.x-button-confirm-round.x-button-active,.x-toolbar .x-button.x-button-confirm-round.x-button-active:after,.x-button.x-button-confirm-small.x-button-pressed,.x-button.x-button-confirm-small.x-button-pressed:after,.x-button.x-button-confirm-small.x-button-active,.x-button.x-button-confirm-small.x-button-active:after,.x-toolbar .x-button.x-button-confirm-small.x-button-pressed,.x-toolbar .x-button.x-button-confirm-small.x-button-pressed:after,.x-toolbar .x-button.x-button-confirm-small.x-button-active,.x-toolbar .x-button.x-button-confirm-small.x-button-active:after{background-color:#547503;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #304402), color-stop(10%, #425c02), color-stop(65%, #547503), color-stop(100%, #557803));background-image:-webkit-linear-gradient(#304402,#425c02 10%,#547503 65%,#557803);background-image:linear-gradient(#304402,#425c02 10%,#547503 65%,#557803)}.x-button.x-button-decline,.x-toolbar .x-button.x-button-decline,.x-button.x-button-decline-round,.x-toolbar .x-button.x-button-decline-round,.x-button.x-button-decline-small,.x-toolbar .x-button.x-button-decline-small{border:0.1em solid #630303;border-top-color:#7c0303;color:#fff;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0;-webkit-box-shadow:rgba(255,255,255,0.1) 0 0.1em 0}.x-button.x-button-decline.x-button-back:before,.x-button.x-button-decline.x-button-forward:before,.x-toolbar .x-button.x-button-decline.x-button-back:before,.x-toolbar .x-button.x-button-decline.x-button-forward:before,.x-button.x-button-decline-round.x-button-back:before,.x-button.x-button-decline-round.x-button-forward:before,.x-toolbar .x-button.x-button-decline-round.x-button-back:before,.x-toolbar .x-button.x-button-decline-round.x-button-forward:before,.x-button.x-button-decline-small.x-button-back:before,.x-button.x-button-decline-small.x-button-forward:before,.x-toolbar .x-button.x-button-decline-small.x-button-back:before,.x-toolbar .x-button.x-button-decline-small.x-button-forward:before{background:#630303}.x-button.x-button-decline,.x-button.x-button-decline.x-button-back:after,.x-button.x-button-decline.x-button-forward:after,.x-toolbar .x-button.x-button-decline,.x-toolbar .x-button.x-button-decline.x-button-back:after,.x-toolbar .x-button.x-button-decline.x-button-forward:after,.x-button.x-button-decline-round,.x-button.x-button-decline-round.x-button-back:after,.x-button.x-button-decline-round.x-button-forward:after,.x-toolbar .x-button.x-button-decline-round,.x-toolbar .x-button.x-button-decline-round.x-button-back:after,.x-toolbar .x-button.x-button-decline-round.x-button-forward:after,.x-button.x-button-decline-small,.x-button.x-button-decline-small.x-button-back:after,.x-button.x-button-decline-small.x-button-forward:after,.x-toolbar .x-button.x-button-decline-small,.x-toolbar .x-button.x-button-decline-small.x-button-back:after,.x-toolbar .x-button.x-button-decline-small.x-button-forward:after{background-color:#c70505;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f91f1f), color-stop(50%, #e00606), color-stop(51%, #c70505), color-stop(100%, #ae0404));background-image:-webkit-linear-gradient(#f91f1f,#e00606 50%,#c70505 51%,#ae0404);background-image:linear-gradient(#f91f1f,#e00606 50%,#c70505 51%,#ae0404)}.x-button.x-button-decline .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-decline .x-button-icon.x-icon-mask,.x-button.x-button-decline-round .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-decline-round .x-button-icon.x-icon-mask,.x-button.x-button-decline-small .x-button-icon.x-icon-mask,.x-toolbar .x-button.x-button-decline-small .x-button-icon.x-icon-mask{background-color:#fff;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(51%, #ffffff), color-stop(100%, #fee6e6));background-image:-webkit-linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#fee6e6);background-image:linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#fee6e6)}.x-button.x-button-decline.x-button-pressed,.x-button.x-button-decline.x-button-active,.x-toolbar .x-button.x-button-decline.x-button-pressed,.x-toolbar .x-button.x-button-decline.x-button-active,.x-button.x-button-decline-round.x-button-pressed,.x-button.x-button-decline-round.x-button-active,.x-toolbar .x-button.x-button-decline-round.x-button-pressed,.x-toolbar .x-button.x-button-decline-round.x-button-active,.x-button.x-button-decline-small.x-button-pressed,.x-button.x-button-decline-small.x-button-active,.x-toolbar .x-button.x-button-decline-small.x-button-pressed,.x-toolbar .x-button.x-button-decline-small.x-button-active{-webkit-box-shadow:inset maroon 0 0 0.1em,rgba(255,255,255,0.1) 0 0.1em 0}.x-button.x-button-decline.x-button-pressed,.x-button.x-button-decline.x-button-pressed:after,.x-button.x-button-decline.x-button-active,.x-button.x-button-decline.x-button-active:after,.x-toolbar .x-button.x-button-decline.x-button-pressed,.x-toolbar .x-button.x-button-decline.x-button-pressed:after,.x-toolbar .x-button.x-button-decline.x-button-active,.x-toolbar .x-button.x-button-decline.x-button-active:after,.x-button.x-button-decline-round.x-button-pressed,.x-button.x-button-decline-round.x-button-pressed:after,.x-button.x-button-decline-round.x-button-active,.x-button.x-button-decline-round.x-button-active:after,.x-toolbar .x-button.x-button-decline-round.x-button-pressed,.x-toolbar .x-button.x-button-decline-round.x-button-pressed:after,.x-toolbar .x-button.x-button-decline-round.x-button-active,.x-toolbar .x-button.x-button-decline-round.x-button-active:after,.x-button.x-button-decline-small.x-button-pressed,.x-button.x-button-decline-small.x-button-pressed:after,.x-button.x-button-decline-small.x-button-active,.x-button.x-button-decline-small.x-button-active:after,.x-toolbar .x-button.x-button-decline-small.x-button-pressed,.x-toolbar .x-button.x-button-decline-small.x-button-pressed:after,.x-toolbar .x-button.x-button-decline-small.x-button-active,.x-toolbar .x-button.x-button-decline-small.x-button-active:after{background-color:#a40404;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #720303), color-stop(10%, #8b0404), color-stop(65%, #a40404), color-stop(100%, #a70404));background-image:-webkit-linear-gradient(#720303,#8b0404 10%,#a40404 65%,#a70404);background-image:linear-gradient(#720303,#8b0404 10%,#a40404 65%,#a70404)}.x-tabbar.x-docked-top{border-bottom:.1em solid;height:2.6em;padding:0 .8em}.x-tabbar.x-docked-top .x-tab{padding:0.4em 0.8em;height:1.8em;-webkit-border-radius:0.9em;border-radius:0.9em}.x-tabbar.x-docked-top .x-tab-active{-webkit-box-shadow:rgba(255,255,255,0.2) 0 0.1em 0.1em,inset rgba(0,0,0,0.3) 0 0.1em 0.2em}.x-tabbar.x-docked-top .x-button-label,.x-tabbar.x-docked-top .x-hasbadge .x-badge,.x-hasbadge .x-tabbar.x-docked-top .x-badge{font-size:.8em;line-height:1.2em;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}.x-tabbar.x-docked-bottom{border-top:.1em solid;height:3em;padding:0}.x-tabbar.x-docked-bottom .x-tab{-webkit-border-radius:0.25em;border-radius:0.25em;min-width:3.3em;position:relative;padding-top:.2em}.x-tabbar.x-docked-bottom .x-tab .x-button-icon{-webkit-mask-size:1.65em;width:1.65em;height:1.65em;display:block;margin:0 auto;position:relative}.x-tabbar.x-docked-bottom .x-tab .x-button-label,.x-tabbar.x-docked-bottom .x-tab .x-hasbadge .x-badge,.x-hasbadge .x-tabbar.x-docked-bottom .x-tab .x-badge{margin:0;padding:.1em 0 .2em 0;font-size:9px;line-height:12px;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}.x-tabbar.x-docked-bottom .x-tab-active{-webkit-box-shadow:inset rgba(255,255,255,0.3) 0 0 0.1em}.x-tabbar-light{background-color:#737373;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #999999), color-stop(50%, #808080), color-stop(51%, #737373), color-stop(100%, #666666));background-image:-webkit-linear-gradient(#999999,#808080 50%,#737373 51%,#666666);background-image:linear-gradient(#999999,#808080 50%,#737373 51%,#666666);border-color:#666}.x-tabbar-light .x-tab{color:#d9d9d9}.x-tabbar-light .x-tab-active{color:#fff}.x-tabbar-light .x-tab-pressed{color:#fff}.x-tabbar-light.x-docked-bottom .x-tab{text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0}.x-tabbar-light.x-docked-bottom .x-tab .x-button-icon{background-color:#a6a6a6;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(50%, #b3b3b3), color-stop(51%, #a6a6a6), color-stop(100%, #999999));background-image:-webkit-linear-gradient(#cccccc,#b3b3b3 50%,#a6a6a6 51%,#999999);background-image:linear-gradient(#cccccc,#b3b3b3 50%,#a6a6a6 51%,#999999)}.x-tabbar-light.x-docked-bottom .x-tab-active{background-color:gray;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a6a6a6), color-stop(50%, #8c8c8c), color-stop(51%, #808080), color-stop(100%, #737373));background-image:-webkit-linear-gradient(#a6a6a6,#8c8c8c 50%,#808080 51%,#737373);background-image:linear-gradient(#a6a6a6,#8c8c8c 50%,#808080 51%,#737373);text-shadow:rgba(255,255,255,0.25) 0 0.08em 0}.x-tabbar-light.x-docked-bottom .x-tab-active .x-button-icon{background-color:#861313;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c91d1d), color-stop(50%, #9c1616), color-stop(51%, #861313), color-stop(100%, #701010));background-image:-webkit-linear-gradient(#c91d1d,#9c1616 50%,#861313 51%,#701010);background-image:linear-gradient(#c91d1d,#9c1616 50%,#861313 51%,#701010)}.x-tabbar-light.x-docked-top .x-tab-active{background-color:#666;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(10%, #595959), color-stop(65%, #666666), color-stop(100%, #676767));background-image:-webkit-linear-gradient(#4d4d4d,#595959 10%,#666666 65%,#676767);background-image:linear-gradient(#4d4d4d,#595959 10%,#666666 65%,#676767);color:#fff}.x-tabbar-dark{background-color:#333;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #595959), color-stop(50%, #404040), color-stop(51%, #333333), color-stop(100%, #262626));background-image:-webkit-linear-gradient(#595959,#404040 50%,#333333 51%,#262626);background-image:linear-gradient(#595959,#404040 50%,#333333 51%,#262626);border-color:#262626}.x-tabbar-dark .x-tab{color:#999}.x-tabbar-dark .x-tab-active{color:#fff}.x-tabbar-dark .x-tab-pressed{color:#fff}.x-tabbar-dark.x-docked-bottom .x-tab{text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0}.x-tabbar-dark.x-docked-bottom .x-tab .x-button-icon{background-color:#666;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c8c8c), color-stop(50%, #737373), color-stop(51%, #666666), color-stop(100%, #595959));background-image:-webkit-linear-gradient(#8c8c8c,#737373 50%,#666666 51%,#595959);background-image:linear-gradient(#8c8c8c,#737373 50%,#666666 51%,#595959)}.x-tabbar-dark.x-docked-bottom .x-tab-active{background-color:#404040;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #666666), color-stop(50%, #4d4d4d), color-stop(51%, #404040), color-stop(100%, #333333));background-image:-webkit-linear-gradient(#666666,#4d4d4d 50%,#404040 51%,#333333);background-image:linear-gradient(#666666,#4d4d4d 50%,#404040 51%,#333333);text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0}.x-tabbar-dark.x-docked-bottom .x-tab-active .x-button-icon{background-color:#f33;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff8080), color-stop(50%, #ff4d4d), color-stop(51%, #ff3333), color-stop(100%, #ff1a1a));background-image:-webkit-linear-gradient(#ff8080,#ff4d4d 50%,#ff3333 51%,#ff1a1a);background-image:linear-gradient(#ff8080,#ff4d4d 50%,#ff3333 51%,#ff1a1a)}.x-tabbar-dark.x-docked-top .x-tab-active{background-color:#262626;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d0d0d), color-stop(10%, #1a1a1a), color-stop(65%, #262626), color-stop(100%, #282828));background-image:-webkit-linear-gradient(#0d0d0d,#1a1a1a 10%,#262626 65%,#282828);background-image:linear-gradient(#0d0d0d,#1a1a1a 10%,#262626 65%,#282828);color:#fff}.x-tab.x-item-disabled span.x-button-label,.x-tab.x-item-disabled .x-hasbadge span.x-badge,.x-hasbadge .x-tab.x-item-disabled span.x-badge,.x-tab.x-item-disabled .x-button-icon{opacity:.5}.x-tab.x-draggable{opacity:.7}.x-tab{overflow:visible !important}.x-toolbar{height:2.6em;padding:0 0.2em;overflow:hidden;position:relative}.x-toolbar &gt; *{z-index:1}.x-toolbar.x-docked-top{border-bottom:.1em solid}.x-toolbar.x-docked-bottom{border-top:.1em solid}.x-title{line-height:2.1em;font-size:1.2em;text-align:center;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0 0.3em}.x-toolbar-dark{background-color:#4d4d4d;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #737373), color-stop(50%, #595959), color-stop(51%, #4d4d4d), color-stop(100%, #404040));background-image:-webkit-linear-gradient(#737373,#595959 50%,#4d4d4d 51%,#404040);background-image:linear-gradient(#737373,#595959 50%,#4d4d4d 51%,#404040);border-color:#000}.x-toolbar-dark .x-title{color:#fff;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0}.x-toolbar-dark .x-button,.x-toolbar .x-toolbar-dark .x-button,.x-toolbar-dark .x-field-select,.x-toolbar .x-toolbar-dark .x-field-select{border:0.1em solid #000;border-top-color:#0d0d0d;color:#fff;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0;-webkit-box-shadow:rgba(255,255,255,0.1) 0 0.1em 0}.x-toolbar-dark .x-button.x-button-back:before,.x-toolbar-dark .x-button.x-button-forward:before,.x-toolbar .x-toolbar-dark .x-button.x-button-back:before,.x-toolbar .x-toolbar-dark .x-button.x-button-forward:before,.x-toolbar-dark .x-field-select.x-button-back:before,.x-toolbar-dark .x-field-select.x-button-forward:before,.x-toolbar .x-toolbar-dark .x-field-select.x-button-back:before,.x-toolbar .x-toolbar-dark .x-field-select.x-button-forward:before{background:#000}.x-toolbar-dark .x-button,.x-toolbar-dark .x-button.x-button-back:after,.x-toolbar-dark .x-button.x-button-forward:after,.x-toolbar .x-toolbar-dark .x-button,.x-toolbar .x-toolbar-dark .x-button.x-button-back:after,.x-toolbar .x-toolbar-dark .x-button.x-button-forward:after,.x-toolbar-dark .x-field-select,.x-toolbar-dark .x-field-select.x-button-back:after,.x-toolbar-dark .x-field-select.x-button-forward:after,.x-toolbar .x-toolbar-dark .x-field-select,.x-toolbar .x-toolbar-dark .x-field-select.x-button-back:after,.x-toolbar .x-toolbar-dark .x-field-select.x-button-forward:after{background-color:#333;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #595959), color-stop(50%, #404040), color-stop(51%, #333333), color-stop(100%, #262626));background-image:-webkit-linear-gradient(#595959,#404040 50%,#333333 51%,#262626);background-image:linear-gradient(#595959,#404040 50%,#333333 51%,#262626)}.x-toolbar-dark .x-button .x-button-icon.x-icon-mask,.x-toolbar .x-toolbar-dark .x-button .x-button-icon.x-icon-mask,.x-toolbar-dark .x-field-select .x-button-icon.x-icon-mask,.x-toolbar .x-toolbar-dark .x-field-select .x-button-icon.x-icon-mask{background-color:#fff;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(51%, #ffffff), color-stop(100%, #f2f2f2));background-image:-webkit-linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#f2f2f2);background-image:linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#f2f2f2)}.x-toolbar-dark .x-button.x-button-pressed,.x-toolbar-dark .x-button.x-button-active,.x-toolbar .x-toolbar-dark .x-button.x-button-pressed,.x-toolbar .x-toolbar-dark .x-button.x-button-active,.x-toolbar-dark .x-field-select.x-button-pressed,.x-toolbar-dark .x-field-select.x-button-active,.x-toolbar .x-toolbar-dark .x-field-select.x-button-pressed,.x-toolbar .x-toolbar-dark .x-field-select.x-button-active{-webkit-box-shadow:inset #0d0c0c 0 0 0.1em,rgba(255,255,255,0.1) 0 0.1em 0}.x-toolbar-dark .x-button.x-button-pressed,.x-toolbar-dark .x-button.x-button-pressed:after,.x-toolbar-dark .x-button.x-button-active,.x-toolbar-dark .x-button.x-button-active:after,.x-toolbar .x-toolbar-dark .x-button.x-button-pressed,.x-toolbar .x-toolbar-dark .x-button.x-button-pressed:after,.x-toolbar .x-toolbar-dark .x-button.x-button-active,.x-toolbar .x-toolbar-dark .x-button.x-button-active:after,.x-toolbar-dark .x-field-select.x-button-pressed,.x-toolbar-dark .x-field-select.x-button-pressed:after,.x-toolbar-dark .x-field-select.x-button-active,.x-toolbar-dark .x-field-select.x-button-active:after,.x-toolbar .x-toolbar-dark .x-field-select.x-button-pressed,.x-toolbar .x-toolbar-dark .x-field-select.x-button-pressed:after,.x-toolbar .x-toolbar-dark .x-field-select.x-button-active,.x-toolbar .x-toolbar-dark .x-field-select.x-button-active:after{background-color:#212121;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #080808), color-stop(10%, #141414), color-stop(65%, #212121), color-stop(100%, #222222));background-image:-webkit-linear-gradient(#080808,#141414 10%,#212121 65%,#222222);background-image:linear-gradient(#080808,#141414 10%,#212121 65%,#222222)}.x-toolbar-light{background-color:#666;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c8c8c), color-stop(50%, #737373), color-stop(51%, #666666), color-stop(100%, #595959));background-image:-webkit-linear-gradient(#8c8c8c,#737373 50%,#666666 51%,#595959);background-image:linear-gradient(#8c8c8c,#737373 50%,#666666 51%,#595959);border-color:#000}.x-toolbar-light .x-title{color:#fff;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0}.x-toolbar-light .x-button,.x-toolbar .x-toolbar-light .x-button,.x-toolbar-light .x-field-select,.x-toolbar .x-toolbar-light .x-field-select{border:0.1em solid #1a1a1a;border-top-color:#262626;color:#fff;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0;-webkit-box-shadow:rgba(255,255,255,0.1) 0 0.1em 0}.x-toolbar-light .x-button.x-button-back:before,.x-toolbar-light .x-button.x-button-forward:before,.x-toolbar .x-toolbar-light .x-button.x-button-back:before,.x-toolbar .x-toolbar-light .x-button.x-button-forward:before,.x-toolbar-light .x-field-select.x-button-back:before,.x-toolbar-light .x-field-select.x-button-forward:before,.x-toolbar .x-toolbar-light .x-field-select.x-button-back:before,.x-toolbar .x-toolbar-light .x-field-select.x-button-forward:before{background:#1a1a1a}.x-toolbar-light .x-button,.x-toolbar-light .x-button.x-button-back:after,.x-toolbar-light .x-button.x-button-forward:after,.x-toolbar .x-toolbar-light .x-button,.x-toolbar .x-toolbar-light .x-button.x-button-back:after,.x-toolbar .x-toolbar-light .x-button.x-button-forward:after,.x-toolbar-light .x-field-select,.x-toolbar-light .x-field-select.x-button-back:after,.x-toolbar-light .x-field-select.x-button-forward:after,.x-toolbar .x-toolbar-light .x-field-select,.x-toolbar .x-toolbar-light .x-field-select.x-button-back:after,.x-toolbar .x-toolbar-light .x-field-select.x-button-forward:after{background-color:#4d4d4d;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #737373), color-stop(50%, #595959), color-stop(51%, #4d4d4d), color-stop(100%, #404040));background-image:-webkit-linear-gradient(#737373,#595959 50%,#4d4d4d 51%,#404040);background-image:linear-gradient(#737373,#595959 50%,#4d4d4d 51%,#404040)}.x-toolbar-light .x-button .x-button-icon.x-icon-mask,.x-toolbar .x-toolbar-light .x-button .x-button-icon.x-icon-mask,.x-toolbar-light .x-field-select .x-button-icon.x-icon-mask,.x-toolbar .x-toolbar-light .x-field-select .x-button-icon.x-icon-mask{background-color:#fff;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(51%, #ffffff), color-stop(100%, #f2f2f2));background-image:-webkit-linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#f2f2f2);background-image:linear-gradient(#ffffff,#ffffff 50%,#ffffff 51%,#f2f2f2)}.x-toolbar-light .x-button.x-button-pressed,.x-toolbar-light .x-button.x-button-active,.x-toolbar .x-toolbar-light .x-button.x-button-pressed,.x-toolbar .x-toolbar-light .x-button.x-button-active,.x-toolbar-light .x-field-select.x-button-pressed,.x-toolbar-light .x-field-select.x-button-active,.x-toolbar .x-toolbar-light .x-field-select.x-button-pressed,.x-toolbar .x-toolbar-light .x-field-select.x-button-active{-webkit-box-shadow:inset #282424 0 0 0.1em,rgba(255,255,255,0.1) 0 0.1em 0}.x-toolbar-light .x-button.x-button-pressed,.x-toolbar-light .x-button.x-button-pressed:after,.x-toolbar-light .x-button.x-button-active,.x-toolbar-light .x-button.x-button-active:after,.x-toolbar .x-toolbar-light .x-button.x-button-pressed,.x-toolbar .x-toolbar-light .x-button.x-button-pressed:after,.x-toolbar .x-toolbar-light .x-button.x-button-active,.x-toolbar .x-toolbar-light .x-button.x-button-active:after,.x-toolbar-light .x-field-select.x-button-pressed,.x-toolbar-light .x-field-select.x-button-pressed:after,.x-toolbar-light .x-field-select.x-button-active,.x-toolbar-light .x-field-select.x-button-active:after,.x-toolbar .x-toolbar-light .x-field-select.x-button-pressed,.x-toolbar .x-toolbar-light .x-field-select.x-button-pressed:after,.x-toolbar .x-toolbar-light .x-field-select.x-button-active,.x-toolbar .x-toolbar-light .x-field-select.x-button-active:after{background-color:#3b3b3b;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #212121), color-stop(10%, #2e2e2e), color-stop(65%, #3b3b3b), color-stop(100%, #3c3c3c));background-image:-webkit-linear-gradient(#212121,#2e2e2e 10%,#3b3b3b 65%,#3c3c3c);background-image:linear-gradient(#212121,#2e2e2e 10%,#3b3b3b 65%,#3c3c3c)}.x-list{background-color:#f7f7f7}.x-list{position:relative}.x-list .x-list-disclosure{position:absolute;bottom:0.5em;right:0.8em}.x-list .x-list-disclosure{overflow:visible;-webkit-mask:0 0 url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpFNkNCM0JGNTZFMjI2ODExQkNGQjkwMzk3MDc3MkZFQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3M0MzQUU1QUFDQkQxMURGOEQ2MUVDMjM0MzY2NTBDQSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3M0MzQUU1OUFDQkQxMURGOEQ2MUVDMjM0MzY2NTBDQSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU3Q0IzQkY1NkUyMjY4MTFCQ0ZCOTAzOTcwNzcyRkVCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU2Q0IzQkY1NkUyMjY4MTFCQ0ZCOTAzOTcwNzcyRkVCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+uoWjuwAACh9JREFUeNrUm2toVdkVx7eJRqPRaHzFGBOjidGYaLQaX9GREXXAkloYQVpT+qFYBkcqLS0zTKFQWpwv86F0KLRfHFqnWDq0UCsMFYqlqHSwGo2v4Du+X9FoNL5P12/N3rLn9Cb33HNvrnHDujfnnHvO2f+91l57/dfaGWBe8xYEQUq/H5ilftWIVIoU2+Ov2e/jIt0inSKnRVpEnvdlR/oK8CKRt0QaRd4QyU3hXkDvFvmXyOeZHoABGXzWWJF3RL4rUuFfKC4uNmPHjjUjRozQ44kTJ+r3jRs3zNOnT013d7e5deuWuXTpknnx4oV/602RP4n8TqQ1EyadCcBlIh9YoHmcqKioMFOnTjXl5eVm1KhR5smTJwrs+fPnCohvOjpw4ECTk5Ojwt/5+fnmzp075vr16+bkyZPm1KlT/nv+KvJLkf++KsCAe89KPidmz55t5s6dawoLC839+/fNo0ePFCwgHjx4oMe0u3fv6vfw4cNNbm6uGTRokCkoKNDBycvLU+DDhg3TQTp27Jg5fPiwuXfvnnvvJyI/EunIJmCczqci1RzMmzfPLFiwQF9Ox65cuWKuXr2qZoqk0ikGa/z48WbcuHFm0qRJOihDhw41LS0tZu/evToI1sl9W2RXNgC/K/IRGp42bZpZsmSJasSZ4fnz51WbmWiDBw9W0NXV1TrvOd6zZ49pbX05nd8XwB/2FWA87a+tYzKLFi0yixcvVoCY3NmzZ8MOJ6OttLRUpwy+4dy5c2bnzp3u0h9FvifAuzMJmPm6Q+SbHGzYsEHn3P79+83Ro0fVCWWrVVZWmqVLl+rfO3bsUA8v7QuRbwjoa5l6z2/xD7KsBJs3bw7WrVsXiINh8rwSGTJkSLBmzRrtS1lZmTv/H5wnc7o3iTpnA1k69AXLli0LZAmJ1VGeQWfFEek3x3FBc684ymDLli0+6E/TBfymyDMeJmasL4jbSe4bPXp0MGvWLJX6+vpAApJAlqTYoAcMGBDU1NQEmzZtCsRxuvPvxQVM7Hubh4gnDsRJxdYsInM+kOUrkHVXj/lmAGVOBuJ909K0rBZBc3OzO4eCmuIA/jcPkEAiWLVqVVqdQjA7WWLc8TZ3ns7W1tYGstaqxuI8m8GbM2dOIKuGO3dDpCAVwCw9QUlJSbB+/XrfXGLLzJkzffMtFNko8pjjyZMnq4njFONOGRSyevVqNXF77hdRARc4U167dm0wZsyYjHhW5m0IsLFMCm0EEl0FDQ0NgZCMl2afqjBgTU1N7vg+PCUK4B9yw/Tp0wNZ6NOatxEAO/JxxC03mCWmH8eZMVBVVVVBXV2dO/ebMOCcEFhIwI/5g1j2woUL5tmzZ30dS7SLLBb5DHKxb98+jaVhXDIAKT2IAIgYnnjcto3iF6r934QBr4G+Tpkyxdy+fdt0dXVlK4DiRetEfs7BgQMHtPPE6rAm6XTkBz18+FDJC2GoDYc39ga4mQ9ZL5UMZEG74fYzC7zrzJkzSitlaqnG4MxRGvH8zZs3daBs+5YMWG6iFE+R1bA+HD6bNBCXkcfsioqKNJsBl+1JGwT9J06ciNLnz0TaRP5+8eLFMvohnlfJCVQzihLQMoMF05JnFNsAanf4dxCDoLy8XIOBKGsiyxXLjUyBQEY0FQdTGDFltMdFVAQ+MmiR4wGiONZme7w1kdNayYcsQ0rio8SdaBa2wuhnigOH8lmryGfRF5gZaSDYEvw7qVMQ/4PF+djCc7iBD9ItUTtPNoK5blu5pZtRpDMi6Cci3xfZjBNua2tTc8WZ8e7e5jWK8GhrvVhJng841+aOdY643FPSjEBubrac2cciK8hjQf6vXbumzowcWE99ACyKGzlypMNX6QNmYueTO3r8+HFWCX0KjTz1AtK1WNXx48c19TNhwgS1ykQNLFiCR4ZeAsZBqMe1SbL+2k7bIGUX2iNIIectsbjmu8INLN7yNNEHXKBrlDiFfqrdcJDydZEPXZDinG0is/YcV6EPWA+42JeJuAy390XW49hI2JNjC8cAYEGJvlJzzOvb8mztStPFeOUkS2muH2l1OxOIGsK94kZU+BdLL1W7xM/hBhYvMuv0NdzhvFoWl5q4rY6pC1iWnIULFxI+6vocbpizt8R2+IDb/egkFXaS5Ub4u496HYU64b2GYARml8j3hIKo9rCGOyh84d69id6f2gfWjAsIOgAMGaEwlwisIzaucGe+LL5/hS1RiH4Tk+5n6zGB8+9F3uaAWhZ9O3ToUK+MDqURSFkNd4lDaw976f18YPPeYp00w9DHrcxWFN6GMKxYsUKJzZEjR5LSV8B6DviLROThn3wQtuEMonhrXko6xrYLGaaHb1iwdSUlJapZ4mjMOEqsT0jZ2fmSo+xOBBgNd7icUBQK1tHRob8jJeTFrJlopGX+QYxP4qCqqkqLdlQqoyQAMGeXtbFtV6KMR7fNNmzExZPBSEYTGWm4MLy4trZWHV4iD8854t3t27frjoAkwcRHtp6lmQ46jgnjfKIWw1iXWW3IeuCb5L7WRIBpnwAY+kUBmpRKb86LDhDhXL58WcH3Ng0izPevBBPLly/XKXPw4MGUkgs4XTKunnb/kOweFnWtBGQqCZ8kL+2CibNcE2sJVq5cGQj1i1XeIRlPzcpLxhf1lpemsVNGQzWSYB7byEowIQOtjglCQOSXSmPuwo897X4sIDt6S9PS2B7Uwh4qzBAvnIn4uof593/BBPOVKRKHteE48T04N0sjfxX13kY/W0gBO12TnjFjhl+UI8PyZ3eNcix1pXTeQ5mGSqfMX3fuB6mWS3Wbg5iI1pjSLZeWlpZqldAen3JpXgkmtBZEh+M+G99ATQmx5w7hv1IFDGE+aWwNFw2lA5r6L46LEqyx9WKcU0VFRVoFOwposqKohdhz0KaauFse6o2t4eI1SYTH7RzTg2Q9SXuhdLobAPOLWwQ3tvpPebWxsdE/35zuphaCdt3nQSmTykQ6+zLoJLXgdIvsaNaB9erJWzOxi4f2jnvR/Pnz1cTTmXNxC95OZKnUGnII7LZkYFPdpviueyHOAUeGV01n61GcaYFlUKzHI3vXtvXkpNIB7Mz7ofPemDhOJ50NKalolXcSReEHvGtbowB1EieXgyNjG6JW1mEylDwIFoi9U42OkjXSNLA3oj6Ykle4g/t9R0D8LZXnxU1esWRttXM7lwwJNA6qCL2EpMO44iYIXNaFyMlFeu3t7Zq78ugeBbZz2d4RX2mBa/oFTRPLQs+ggfBlGA/gYV09hYvQR5eScRvF+Zt7iOm92JjMxU9snam3kLXPALvWYHlsoztBmgjtIGiazkMhw6ABC4+GpADa/QuA5bJ+Temn5sv/f4gSo/c5YNfYKd9kGVBdOCmO5hI1pkAC3t1uExKfmwTbFfoL4HACDlN/y5p+RZLfU/Fvs+BgbK1psLBXAjhR+qauh2unTfRdAa8N4D5pqQL+nwADAKGFDQ//Deb9AAAAAElFTkSuQmCC&#39;) no-repeat;-webkit-mask-size:1.7em;background-color:#7e1b1b;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bd2828), color-stop(50%, #931f1f), color-stop(51%, #7e1b1b), color-stop(100%, #691616));background-image:-webkit-linear-gradient(#bd2828,#931f1f 50%,#7e1b1b 51%,#691616);background-image:linear-gradient(#bd2828,#931f1f 50%,#7e1b1b 51%,#691616);width:1.7em;height:1.7em}.x-list.x-list-indexed .x-list-disclosure{margin-right:1em}.x-list .x-item-selected .x-list-disclosure{background:#fff none}.x-list .x-list-item{overflow:hidden;position:relative;color:#000;border-top:1px solid #d1d1d1}.x-list .x-list-item .x-list-item-label{min-height:2.6em;padding:0.7em 0.8em}.x-list .x-list-item:first-child{border-top:none}.x-list .x-list-item:last-child{border-bottom:1px solid #d1d1d1}.x-list .x-list-item.x-item-pressed{border-top-color:#e8b0b0;background:#e8b0b0 none}.x-list .x-list-item.x-item-selected{background-color:#722;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b23434), color-stop(50%, #8a2828), color-stop(51%, #772222), color-stop(100%, #631d1d));background-image:-webkit-linear-gradient(#b23434,#8a2828 50%,#772222 51%,#631d1d);background-image:linear-gradient(#b23434,#8a2828 50%,#772222 51%,#631d1d);color:#fff;text-shadow:rgba(0,0,0,0.5) 0 -0.08em 0;border-top-color:#9e2e2e;border-bottom-color:#3b1111}.x-list-header{background-color:#a38f8f;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c6b9b9), color-stop(50%, #af9d9d), color-stop(51%, #a38f8f), color-stop(100%, #988181));background-image:-webkit-linear-gradient(#c6b9b9,#af9d9d 50%,#a38f8f 51%,#988181);background-image:linear-gradient(#c6b9b9,#af9d9d 50%,#a38f8f 51%,#988181);color:#544545;text-shadow:rgba(255,255,255,0.25) 0 0.08em 0;border-top:1px solid #a38f8f;border-bottom:1px solid #705c5c;font-weight:bold;font-size:0.8em;padding:0.2em 1.02em;text-shadow:rgba(255,255,255,0.25) 0 0.08em 0;-webkit-box-shadow:0px 0.1em 0.3em rgba(0,0,0,0.3)}.x-list-header-swap{position:absolute;top:0;left:0;width:100%}.x-ios .x-list-header-swap{-webkit-transform:translate3d(0, 0, 0)}.x-list-round{background-color:#eaeaea}.x-list-round .x-list-group-items &gt; *,.x-list-round.x-list-flat .x-list-parent &gt; *{border-right:1px solid #d1d1d1;border-left:1px solid #d1d1d1;background-color:#f7f7f7;margin:0 1.2em}.x-list-round .x-list-group-items &gt; *:first-child,.x-list-round.x-list-flat .x-list-parent &gt; *:first-child{margin:1.2em 1.2em 0;border-top:1px solid #d1d1d1;-webkit-border-top-left-radius:0.4em;border-top-left-radius:0.4em;-webkit-border-top-right-radius:0.4em;border-top-right-radius:0.4em}.x-list-round .x-list-group-items &gt; *:last-child,.x-list-round.x-list-flat .x-list-parent &gt; *:last-child{margin:0 1.2em 1.2em;border-bottom:1px solid #d1d1d1;-webkit-border-bottom-left-radius:0.4em;border-bottom-left-radius:0.4em;-webkit-border-bottom-right-radius:0.4em;border-bottom-right-radius:0.4em}html,body{width:100%;height:100%}.x-layout-fit{position:relative;display:-webkit-box}.x-layout-fit &gt; *{-webkit-box-flex:1;min-width:100%;min-height:100%}.x-layout-card{position:relative;overflow:hidden}.x-layout-card &gt; .x-layout-card-item{position:absolute !important;width:100%;height:100%}.x-layout-hbox,.x-layout-vbox{display:-webkit-box}.x-layout-hbox &gt; *,.x-layout-vbox &gt; *{-webkit-box-flex:0}.x-layout-hbox{-webkit-box-orient:horizontal}.x-layout-vbox{-webkit-box-orient:vertical}.x-layout-hbox &gt; .x-layout-box-item{width:0 !important}.x-layout-vbox &gt; .x-layout-box-item{height:0 !important}.x-container,.x-body{display:-webkit-box;overflow:hidden}.x-body{-webkit-box-flex:1;min-width:100%;min-height:100%}.x-body &gt; .x-inner,.x-container &gt; .x-inner{-webkit-box-flex:1;min-width:100%;min-height:100%}.x-docking-horizontal{display:-webkit-box;-webkit-box-flex:1;-webkit-box-orient:horizontal;min-width:100%;min-height:100%}.x-docking-vertical{display:-webkit-box;-webkit-box-flex:1;-webkit-box-orient:vertical;min-width:100%;min-height:100%}.x-centered{position:absolute !important;width:100%;height:100%;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center}.x-floating{position:absolute !important}.x-centered &gt; *{position:relative !important;-webkit-box-flex:0 !important}.x-size-change-detector{visibility:hidden;position:absolute;left:0;top:0;z-index:-1;width:100%;height:100%;overflow:hidden}.x-size-change-detector &gt; *{visibility:hidden}.x-size-change-detector-shrink &gt; *{width:200%;height:200%}.x-size-change-detector-expand &gt; *{width:100000px;height:100000px}.x-scroll-view{position:relative;display:block}.x-scroll-container{position:absolute;overflow:hidden;width:100%;height:100%}.x-scroll-scroller{position:absolute;min-width:100%;min-height:100%}.x-ios .x-scroll-scroller{-webkit-transform:translate3d(0, 0, 0)}.x-scroll-stretcher{position:absolute;visibility:hidden}.x-scroll-bar-grid-wrapper{position:absolute;width:100%;height:100%}.x-scroll-bar-grid{display:table;width:100%;height:100%}.x-scroll-bar-grid &gt; *{display:table-row}.x-scroll-bar-grid &gt; * &gt; *{display:table-cell}.x-scroll-bar-grid &gt; :first-child &gt; :first-child{width:100%;height:100%}.x-scroll-bar-grid &gt; :first-child &gt; :nth-child(2){padding:3px 3px 0 0}.x-scroll-bar-grid &gt; :nth-child(2) &gt; :first-child{padding:0 0 3px 3px}.x-scroll-bar{position:relative;overflow:hidden}.x-scroll-bar-stretcher{position:absolute;visibility:hidden;width:100%;height:100%}.x-scroll-bar-x{height:6px;width:100%}.x-scroll-bar-x &gt; .x-scroll-bar-stretcher{width:300%}.x-scroll-bar-y{width:6px;height:100%}.x-scroll-bar-y &gt; .x-scroll-bar-stretcher{height:300%}.x-scroll-indicator{background:#333;position:absolute;z-index:1;opacity:0.5}.x-scroll-indicator-x{height:100%}.x-scroll-indicator-y{width:100%}.x-scroll-indicator-csstransform{background:none;-webkit-transition:opacity 0.2s ease-out}.x-scroll-indicator-csstransform &gt; *{position:absolute;background-color:#333}.x-scroll-indicator-csstransform &gt; :nth-child(2){-webkit-transform-origin:0% 0%;background:none;content:url(data:image/bmp;base64,Qk08AAAAAAAAADYAAAAoAAAAAQAAAAEAAAABABAAAAAAAAYAAAASCwAAEgsAAAAAAAAAAAAAxhgAAAAA)}.x-scroll-indicator-csstransform.x-scroll-indicator-y &gt; *{width:100%}.x-scroll-indicator-csstransform.x-scroll-indicator-y &gt; :first-child{height:3px;-webkit-border-top-left-radius:3px;border-top-left-radius:3px;-webkit-border-top-right-radius:3px;border-top-right-radius:3px}.x-scroll-indicator-csstransform.x-scroll-indicator-y &gt; :nth-child(2){height:1px}.x-scroll-indicator-csstransform.x-scroll-indicator-y &gt; :last-child{height:3px;-webkit-border-bottom-left-radius:3px;border-bottom-left-radius:3px;-webkit-border-bottom-right-radius:3px;border-bottom-right-radius:3px}.x-scroll-indicator-csstransform.x-scroll-indicator-x &gt; *{height:100%}.x-scroll-indicator-csstransform.x-scroll-indicator-x &gt; :first-child{width:3px;-webkit-border-top-left-radius:3px;border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;border-bottom-left-radius:3px}.x-scroll-indicator-csstransform.x-scroll-indicator-x &gt; :nth-child(2){width:1px}.x-scroll-indicator-csstransform.x-scroll-indicator-x &gt; :last-child{width:3px;-webkit-border-top-right-radius:3px;border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;border-bottom-right-radius:3px}.x-loading-spinner{font-size:250%;height:1em;width:1em;position:relative;-webkit-transform-origin:0.5em 0.5em}.x-loading-spinner &gt; span,.x-loading-spinner &gt; span:before,.x-loading-spinner &gt; span:after{display:block;position:absolute;width:0.1em;height:0.25em;top:0;-webkit-transform-origin:0.05em 0.5em;-webkit-border-radius:0.05em;border-radius:0.05em;content:&quot; &quot;}.x-loading-spinner &gt; span.x-loading-top{background-color:rgba(170,170,170,0.99)}.x-loading-spinner &gt; span.x-loading-top::after{background-color:rgba(170,170,170,0.9)}.x-loading-spinner &gt; span.x-loading-left::before{background-color:rgba(170,170,170,0.8)}.x-loading-spinner &gt; span.x-loading-left{background-color:rgba(170,170,170,0.7)}.x-loading-spinner &gt; span.x-loading-left::after{background-color:rgba(170,170,170,0.6)}.x-loading-spinner &gt; span.x-loading-bottom::before{background-color:rgba(170,170,170,0.5)}.x-loading-spinner &gt; span.x-loading-bottom{background-color:rgba(170,170,170,0.4)}.x-loading-spinner &gt; span.x-loading-bottom::after{background-color:rgba(170,170,170,0.35)}.x-loading-spinner &gt; span.x-loading-right::before{background-color:rgba(170,170,170,0.3)}.x-loading-spinner &gt; span.x-loading-right{background-color:rgba(170,170,170,0.25)}.x-loading-spinner &gt; span.x-loading-right::after{background-color:rgba(170,170,170,0.2)}.x-loading-spinner &gt; span.x-loading-top::before{background-color:rgba(170,170,170,0.15)}.x-loading-spinner &gt; span{left:50%;margin-left:-0.05em}.x-loading-spinner &gt; span.x-loading-top{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg)}.x-loading-spinner &gt; span.x-loading-right{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg)}.x-loading-spinner &gt; span.x-loading-bottom{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}.x-loading-spinner &gt; span.x-loading-left{-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg)}.x-loading-spinner &gt; span::before{-webkit-transform:rotate(30deg);-moz-transform:rotate(30deg)}.x-loading-spinner &gt; span::after{-webkit-transform:rotate(-30deg);-moz-transform:rotate(-30deg)}.x-loading-spinner{-webkit-animation-name:x-loading-spinner-rotate;-webkit-animation-duration:.5s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear}@-webkit-keyframes x-loading-spinner-rotate{0%{-webkit-transform:rotate(0deg)}8.32%{-webkit-transform:rotate(0deg)}8.33%{-webkit-transform:rotate(30deg)}16.65%{-webkit-transform:rotate(30deg)}16.66%{-webkit-transform:rotate(60deg)}24.99%{-webkit-transform:rotate(60deg)}25%{-webkit-transform:rotate(90deg)}33.32%{-webkit-transform:rotate(90deg)}33.33%{-webkit-transform:rotate(120deg)}41.65%{-webkit-transform:rotate(120deg)}41.66%{-webkit-transform:rotate(150deg)}49.99%{-webkit-transform:rotate(150deg)}50%{-webkit-transform:rotate(180deg)}58.32%{-webkit-transform:rotate(180deg)}58.33%{-webkit-transform:rotate(210deg)}66.65%{-webkit-transform:rotate(210deg)}66.66%{-webkit-transform:rotate(240deg)}74.99%{-webkit-transform:rotate(240deg)}75%{-webkit-transform:rotate(270deg)}83.32%{-webkit-transform:rotate(270deg)}83.33%{-webkit-transform:rotate(300deg)}91.65%{-webkit-transform:rotate(300deg)}91.66%{-webkit-transform:rotate(330deg)}100%{-webkit-transform:rotate(330deg)}}.photo{float:left;margin:0 8px 16px 0;border:1px solid #ccc;-webkit-box-shadow:0 2px 4px #777}.x-html h2{margin-bottom:0}.phone,.link{clear:both;font-weight:bold;display:block;text-align:center;margin-top:8px}.detail{-webkit-box-orient:vertical}.detail .photo{float:none}.x-title{font-family:Voltaire;font-weight:normal;font-size:1.7em;line-height:1.7em;letter-spacing:0.05em}</td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.07027s from github-fe122-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-06e65f5639cc52d1aaada53115a54614b60fa90ab446a673e3e1818df167663b.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-6486b386f2ea8e61e35e6f68b6e5506fa17aed1c385b528ece57088cf14a1459.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+

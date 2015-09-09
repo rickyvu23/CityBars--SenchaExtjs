@@ -1,0 +1,50 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "listcontainer",
+        "designer|userClassName": "ListContainer",
+        "id": null,
+        "layout": "fit"
+    },
+    "name": "MyContainer",
+    "designerId": "cf874e50-b771-4e27-94c0-293ed306b6e0",
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "dataList"
+            },
+            "name": "MyList",
+            "designerId": "35187580-b937-42aa-a037-6901a6a68b76",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "itemTpl",
+                        "implHandler": [
+                            "<img class=“photo” src=“{photo_url}” width=“40” height=“40”/>{name}<br/> <img src=“{rating_img_url_small}”/>&nbsp;<small>{address1}</small> ",
+                            "<div>List Item {string}</div>"
+                        ]
+                    },
+                    "name": "itemTpl",
+                    "designerId": "78c4c3dc-ddc1-4906-8d0b-cb7f3054ea68"
+                }
+            ]
+        }
+    ]
+}
